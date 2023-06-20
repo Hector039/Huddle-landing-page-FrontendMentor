@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Poppins:wght@200;400;600&display=swap");
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(257, 40%, 49%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.primary {
+  background-image: url(../images/bg-mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  gap: 50px;
+}
+
+.mockup {
+  max-width: 100%;
+}
+
+.logo {
+  width: 130px;
+}
+
+.secondary {
+  text-align: center;
+  color: white;
+  width: auto;
+  padding: 35px 25px 60px 25px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  padding-inline: 25px;
+}
+
+.text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+  padding-inline: 35px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.6rem;
+  color: hsl(257, 40%, 49%);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  border-style: none;
+  width: 170px;
+  height: 35px;
+}
+button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+}
+
+.social {
+  color: white;
+  text-align: center;
+  font-size: 0.8rem;
+  margin-bottom: 35px;
+}
+
+span {
+  border: solid white 1px;
+  border-radius: 20px;
+  padding: 7px 5px 2px 5px;
+  margin: 0 3px 0 3px;
+}
+span:hover {
+  border: solid hsl(300, 37%, 52%) 1px;
+  color: hsl(300, 37%, 52%);
+}
+
+.attribution {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  margin-top: 45px;
+  font-size: 0.7rem;
+}
+.attribution a {
+  text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+  body {
+    background-image: url(../images/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .primary {
+    background-image: none;
+    flex: 1.3;
+    margin-left: 35px;
+  }
+  .logo {
+    width: 180px;
+  }
+  .secondary {
+    align-items: flex-start;
+    text-align: left;
+    padding: 0 130px 0 15px;
+    flex: 1;
+  }
+  .heading {
+    padding-inline: 0;
+    font-size: 2.5rem;
+  }
+  .text {
+    padding-inline: 0;
+    font-size: 1.2rem;
+  }
+  button {
+    width: 140px;
+    height: 40px;
+    font-size: 1rem;
+  }
+  .social {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 250px;
+    font-size: 1.3rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
